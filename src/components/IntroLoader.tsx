@@ -77,10 +77,10 @@ export function IntroLoader() {
           >
             {/* The animations below are CSS (see .loader-* in globals.css), not Framer Motion: CSS runs as soon as the
                 page paints, so the logo is on screen even while the page's scripts are still downloading. */}
-            <p className="loader-aakavi -mb-4 max-w-[88vw] text-center text-[11px] font-semibold uppercase leading-relaxed text-white/75 sm:text-xs">
-              <span className="block">Aakavi Digital Ventures Private Limited</span>
-              <span className="mt-1 block text-sm font-extrabold text-jg-lime sm:text-base" style={{ textShadow: "0 0 18px rgba(182,255,59,0.55)" }}>
-                Presents
+            <p className="loader-aakavi -mb-4 max-w-[88vw] text-center text-[11px] font-semibold leading-relaxed text-white/75 sm:text-xs">
+              Aakavi Digital Ventures Private Limited Presents{" "}
+              <span className="font-extrabold text-jg-lime" style={{ textShadow: "0 0 18px rgba(182,255,59,0.55)" }}>
+                JusGo
               </span>
             </p>
             <div className="relative">
